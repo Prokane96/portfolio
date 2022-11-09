@@ -9,12 +9,26 @@ body{
 }
 
 .font-primary{
-    color: # ;
+    color: #593392 ;
 }
 
 .title-icon {
     font-size: 20px;
     font-weight: bold;
+}
+
+p{
+   font-size: 14px; 
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px; 
+}
+
+a.font-black{
+    color:black !important;
 }
 /******************
 
@@ -36,27 +50,51 @@ ABOUT
 }
 
 #about .name{
-    font-size: 10px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 #about .vocation{
     font-size: 17px;
-    color: # ;
+    color: #B4B4B4 ;
     margin-bottom: 10px;
 }
 
 #about .skills {
     font-size: 14px;
-    color: # ;
+    color: #593392 ;
     margin-bottom: 10px;
 }
 
 #about .email{
     margin-top: 14px;
-    font-size: 30px;
+    font-size: 12px;
 }
 
 #about .icons{
     margin-top: 20px;
     font-size: 30px;
+}
+
+/**********
+
+PROJECT
+
+***********/
+
+#project{
+    margin:60px auto;
+    width: 80%
+}
+
+#project h2{
+    text-align: center;
+}
+
+#project .card img{
+    width: 130px;
+}
+
+#project .card-title{
+    font-weight: bold;
 }
